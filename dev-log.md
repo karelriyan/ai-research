@@ -18,3 +18,9 @@ Qwen 3 4B > Llama 3.2 1B
 
 ### Time: 3 hours
 ### Next: Rustlings 1-3
+
+## Day 1 - [Date]
+- ✅ Rust + Rustlings installed
+- ✅ Exercises: intro1, intro2, variables1-5, functions1-3
+- Learned: shadowing, const vs let, return types, semicolons
+- Time: ~2 hours
