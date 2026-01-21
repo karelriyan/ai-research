@@ -12,8 +12,20 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+fn calculate_price_of_apples(quantity: u32) -> u32 {
+    if quantity > 40 {
+        quantity
+    } else {
+        quantity * 2
+    }
+}
+
 fn main() {
     // You can optionally experiment here.
+    let quantity = 10;
+    println!("Price for 10 apples: {}", calculate_price_of_apples(quantity));
+    let quantity= 100;
+    println!("Price for 100 apples: {}", calculate_price_of_apples(quantity));
 }
 
 // Don't change the tests!
